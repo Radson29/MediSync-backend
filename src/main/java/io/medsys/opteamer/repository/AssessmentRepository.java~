@@ -1,0 +1,4 @@
+package io.medsys.opteamer.repository;
+
+public class AssessmentRepository {
+}

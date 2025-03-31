@@ -1,0 +1,11 @@
+package io.medsys.opteamer.model;
+
+import java.io.Serializable;
+
+@Embeddable
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class OperationTeamMemberId implements Serializable {
+    
+}

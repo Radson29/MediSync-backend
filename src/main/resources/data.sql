@@ -1,0 +1,24 @@
+-- INSERT INTO roles (id, name) VALUES (2, 'ROLE_ADMIN');
+-- INSERT INTO roles (id, name) VALUES (4, 'ROLE_MODERATOR');
+-- INSERT INTO roles (id, name) VALUES (3, 'ROLE_BUSINESS_ADMIN');
+-- INSERT INTO roles (id, name) VALUES (1, 'ROLE_USER');
+--
+--
+-- INSERT INTO user_privileges (id, name) VALUES (2, 'READ');
+-- INSERT INTO user_privileges (id, name) VALUES (1, 'WRITE');
+-- INSERT INTO user_privileges (id, name) VALUES (3, 'UPDATE');
+-- INSERT INTO user_privileges (id, name) VALUES (4, 'DELETE');
+-- INSERT INTO user_privileges (id, name) VALUES (5, 'CRUD');
+--
+-- INSERT INTO operation_providers ("type") VALUES
+--                                              ('SURGEON'),
+--                                              ('ANESTHESIOLOGIST'),
+--                                              ('CERTIFIED_NURSE'),
+--                                              ('OP_ROOM_NURSE'),
+--                                              ('SURGICAL_TECH');
+--
+-- INSERT INTO assets (name, type) VALUES
+--                                     ('Scalpel', 'SURGICAL_INSTRUMENT'),
+--                                     ('MRI Machine', 'MACHINE'),
+--                                     ('Anesthesia Machine', 'EQUIPMENT'),
+--                                     ('Surgical Mask', 'OTHER_ESSENTIAL_TOOL');

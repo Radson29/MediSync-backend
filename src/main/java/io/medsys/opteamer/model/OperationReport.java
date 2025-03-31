@@ -1,0 +1,28 @@
+package io.medsys.opteamer.model;
+
+import io.medsys.opteamer.model.embeddedids.OperationReportId;
+import jakarta.persistence.*;
+import lombok.*;
+
+@Entity
+@NoArgsConstructor
+@Getter
+@Setter
+
+@Table(name = "operation_reports")
+public class OperationReport {
+    @EmbeddedId
+    private OperationReportId operationReportId;
+    @Column(name = "report")
+    private String report;
+
+    @ManyToOne
+    @MapsId("operationId")
+    @JoinColumn(name = "operation_id")
+    private Operation operation;
+
+    @ManyToOne
+    @MapsId("teamMemberId")
+    @JoinColumn(name = "team_member_id")
+    private TeamMember teamMember;
+}
