@@ -2,6 +2,10 @@
 
 Backend systemu **MediSync** to rozbudowany moduł zarządzania danymi medycznymi System umożliwia zarządzanie pacjentami, użytkownikami, rolami, salami operacyjnymi, zasobami, oceną przedoperacyjną oraz operacjami medycznymi.
 
+## Schemat bazy danych
+![image](https://github.com/user-attachments/assets/fa9319e8-8874-4e38-84d3-7bf75ee35f7e)
+
+
 ## Spis treści
 
 - [Funkcjonalności](#funkcjonalności)
